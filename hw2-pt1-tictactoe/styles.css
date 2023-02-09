@@ -17,3 +17,16 @@
     height: 200px;
     border: 1px solid black;
 }
+
+.board2 {
+    display: flex;
+    max-width:800px;
+    flex-wrap: wrap;
+}
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    flex: 0 32%;
+}
