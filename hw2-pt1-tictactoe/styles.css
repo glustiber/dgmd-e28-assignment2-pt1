@@ -6,43 +6,30 @@
 }
 
 .board {
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    justify-content: space-evenly;
-}
-
-.square {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-}
-
-.board2 {
     display: flex;
     max-width:800px;
     flex-wrap: wrap;
 }
 
-.square2 {
+.square {
     width: 200px;
     height: 200px;
     /* border: 1px solid black; */
     flex: 0 32%;
 }
 
-.square2:nth-child(-n+3) {
+.square:nth-child(-n+3) {
     border-bottom: 1px solid black;
 }
 
-.square2:nth-child(n+7) {
+.square:nth-child(n+7) {
     border-top: 1px solid black;
 }
 
-.square2:nth-child(3n+1) {
+.square:nth-child(3n+1) {
     border-right: 1px solid black;
 }
 
-.square2:nth-child(3n) {
+.square:nth-child(3n) {
     border-left: 1px solid black;
 }
